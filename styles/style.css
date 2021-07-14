@@ -153,6 +153,31 @@ body{
     margin-top: 20px;
     border-color: 2px red;
 }
+/*----------------- 
+   media queries
+ ------------------*/
+/*------------- mobile device------------  */
+@media only screen and (max-width:688px) {
+     .top-desgin{
+        display: block; 
+        
+    }
+    .player-list{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .vedio{
+        size:0em;
+    }
+    .photos-player{display: block;
+
+    }
+    .footer-line{
+        width: 236px;
+        height: 31px;
+        margin-right: 500px;
+    
+    }
+
 
 
 
