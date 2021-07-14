@@ -1,0 +1,73 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* -----first subject -----*/
+.heading-img img{
+    width: 70%;
+    height: 438pxS;
+    margin-left: 102px;
+    margin-top: 253px;
+    margin-right: 130px;
+    margin-bottom: 86px;
+    
+}
+.headline{
+    font-size: 30px;
+    color: white;
+}
+.top-desgin{
+    display: flex;
+    background-color: darkblue;
+    justify-content: space-between;
+}
+.header-part{
+    margin-left: 156px;
+    margin-top: 207px;
+    margin-bottom: 240px;
+}
+.link-button{
+    text-decoration: none;
+    color: white;
+   
+   
+  
+    /* padding: 10px 24px; */
+    
+}
+.first-anc{
+    background-color: #E02C6D;
+    width: 168px;
+    height: 44px;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 4px;
+}
+   /*--------- players stiry-------- */
+.story-1 img{
+    width: 100%;
+
+}
+.story-1{
+    display: block;
+    border: 15px solid whitesmoke; 
+    width: 200px;
+    height:400px;
+    padding: 15px;
+    box-shadow: 10px 10px 30px 10px gray;
+
+   
+     
+}
+.player-list {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:27px 30px;
+    margin-left: 140px;
+    margin-right: 225px;
+    margin-right: 27px;
+    margin-top: 70px;
+   
+    
+
+}
