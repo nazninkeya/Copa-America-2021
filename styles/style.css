@@ -15,10 +15,23 @@ body{
     font-size: 30px;
     color: white;
 }
+
+.top-desgin:hover .heading-img{
+    transform: scale(1.5);
+    transition:transform 2s ease-in-out ;
+
+}
+.top-desgin:hover .first-anc{
+    transform: scale(1.2);
+    transition: transform 2s ease-in-out;
+}
+
+
 .top-desgin{
     display: flex;
     background-color: darkblue;
     justify-content: space-between;
+    overflow: hidden;
 }
 .header-part{
     margin-left: 156px;
@@ -71,3 +84,75 @@ body{
     
 
 }
+.small-line{
+    margin-left: 40px;
+}
+.photo img{
+    width: 15%;
+    border-radius: 50%;
+
+}
+.photos-player:hover .photo img{
+    transform:scale(1.5) ;
+    transition: transform 2s ease-in-out;
+}
+.searchh{
+    text-decoration: none;
+    color: whitesmoke; 
+   
+    
+   
+}
+.searces{
+    width: 168px;
+    height: 44px;
+    margin-top: 40px;
+    margin-left: 50px;
+    background-color: #E02C6D ;
+    text-align: center;
+    padding-top: 20px;
+    border-radius:5px ;
+    
+    
+}
+
+
+
+
+   
+/* -----footer style------ */
+.footers img{
+    width: 470px;
+    height: 110px;
+    margin-left: 300px;
+    margin-top: 158px;
+    
+
+    
+    
+}
+.nav-tags.filled{
+    width: 170px;
+    height: 32px;
+    
+    
+    
+}
+.footer-line{
+    width: 236px;
+    height: 31px;
+    top: 182px;
+    display: flex;
+    align-items: center;
+    margin-left: 450px;
+    margin-top: 20px;
+    margin-bottom: 63px;
+}
+.nav-tags{
+    margin-left: 500px;
+    margin-top: 20px;
+    border-color: 2px red;
+}
+
+
+
